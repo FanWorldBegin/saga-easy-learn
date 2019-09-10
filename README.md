@@ -1,5 +1,5 @@
-#redux-saga 入门学习
-## 初始化环境
+# redux-saga 入门学习
+## 1. 初始化环境
 1. 项目运行环境
 npx create-react-app  reactsaga-new-learn
 2. 安装redux
@@ -8,7 +8,7 @@ yarn add redux  react-redux
 3. 安装调试工具
 yarn add redux-devtools-extension  -dev
 
-### 初始化redux 环境
+## 2.初始化redux 环境
 
 index.js
 ```javascript

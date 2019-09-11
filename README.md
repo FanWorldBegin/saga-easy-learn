@@ -51,3 +51,20 @@ const users = (state = {}, action = {}) => {
 
 export default users;
 ```
+## 3.redux-saga引入
+### 1.安装saga
+yarn add redux-saga
+
+To run  Saga, we'll have to connect it to the Redux Store using the redux-saga middleware.
+### 2.在index.js中作准备
+![image](https://github.com/FanWorldBegin/saga-easy-learn/blob/master/images/1.png)
+
+## 3.saga/index.js 
+```javascript
+export function* helloSaga() {
+  console.log('Hello Saga!');
+}
+```
+
+## 3.运行saga
+![image](https://github.com/FanWorldBegin/saga-easy-learn/blob/master/images/2.png)
